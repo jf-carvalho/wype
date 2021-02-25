@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wype</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<h1>Te amo porque você é <span class="wype-wrapper"><span id="wype" class="wype"></span></span></h1>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+		document.getElementById('wype').wype({
+			data: ['incrível', 'doce', 'divertida', 'linda', 'poderosa', 'forte', 'interessante', 'talentosa', 'inteligente', 'cheirosa', 'gostosa'],
+			interval: 1000,
+			typingSpeed: 100,
+			delayBetween: 1000,
+			minimumTime: 1000,
+		})
+	</script>
+</body>
+</html>
